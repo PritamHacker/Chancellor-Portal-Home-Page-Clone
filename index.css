@@ -186,6 +186,7 @@ body{
    border-width: 2px;
    height: 310px;
    width: 295px;
+   background-color: #e3e0e0;
 }
 #top-login1{
     color: white;
@@ -199,13 +200,24 @@ body{
     background-color: #0099cc;
 }
 
-#form{
+.form{
     margin-top: 12px;
     margin-left: 15px;
+    padding: 30px 50px;
 }
+
+.form button{
+    color: #ffffff;
+    background-color: #7b7be3;
+    font-size: 16px;
+}
+
 #f-name{
     font-family: arial;
-    padding-bottom: 12px;
+}
+
+#fname{
+    margin-bottom: 10px;
 }
 
 #marq{
@@ -298,6 +310,7 @@ body{
     float: left;
     height: 70px;
     width: 220px;
+    background-color: #3300ff;
 }
 #clg-con{
     border: 1px solid black;
@@ -305,7 +318,7 @@ body{
     height: 70px;
     width: 220px;
     margin-left: 30px;
-    
+    background-color: #0099cc;
 }
 #clg-aff{
     border: 1px solid black;
@@ -313,7 +326,7 @@ body{
     height: 70px;
     width: 220px;
     margin-left: 30px;
-    
+    background-color: yellowgreen;
 }
 #reg-usr{
     border: 1px solid black;
@@ -321,6 +334,7 @@ body{
     height: 70px;
     width: 220px;
     margin-top: 30px;
+    background-color: tomato;
 }
 #appl-ug{
     border: 1px solid black;
@@ -329,6 +343,7 @@ body{
     width: 220px;
     margin-left: 30px;
     margin-top: 30px;
+    background-color: bisque;
 }
 #appl-pg{
     border: 1px solid black;
@@ -337,6 +352,7 @@ body{
     width: 220px;
     margin-left: 30px;
     margin-top: 30px;
+    background-color: chartreuse;
 }
 #appl-ug1{
     border: 1px solid black;
@@ -344,6 +360,7 @@ body{
     height: 70px;
     width: 220px;
     margin-top: 30px;
+    background-color: sienna;
 }
 #appl-pg1{
     border: 1px solid black;
@@ -352,6 +369,7 @@ body{
     width: 220px;
     margin-left: 30px;
     margin-top: 30px;
+    background-color:palegoldenrod;
 }
 #middle-top2{
     margin-left: 18px;
